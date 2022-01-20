@@ -71,7 +71,7 @@ const handleGetAnimalsSubmit = event => {
   const animalObject = { diet, personalityTraits };
 
   getAnimals(animalObject);
-};
+}; 
 
 $animalForm.addEventListener('submit', handleGetAnimalsSubmit);
 
